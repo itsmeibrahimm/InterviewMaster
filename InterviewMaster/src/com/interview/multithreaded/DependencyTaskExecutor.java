@@ -64,6 +64,7 @@ public class DependencyTaskExecutor {
         x.addDependency(y);
         x.addDependency(z);
         y.addDependency(a);
+        
         taskExecutor.scheduleTask(Lists.newArrayList(a, b, c, d, x, y, z), 4);
     }
 }

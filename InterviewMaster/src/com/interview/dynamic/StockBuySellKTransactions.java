@@ -141,7 +141,8 @@ public class StockBuySellKTransactions {
 
     public static void main(String args[]) {
         StockBuySellKTransactions sbt = new StockBuySellKTransactions();
-        int prices[] = {2, 5, 7, 1, 4, 3, 1, 3};
+        //int prices[] = {2, 5, 7, 1, 4, 3, 1, 3};
+        int prices[] = {2,4,8,6,7};
 
         System.out.println("Max profit fast solution " + sbt.maxProfit(prices, 3));
         System.out.println("Max profit slow solution " + sbt.maxProfitSlowSolution(prices, 3));

@@ -109,7 +109,7 @@ public class NQueenProblem {
 
     public static void main(String args[]) {
         NQueenProblem s = new NQueenProblem();
-        Position[] positions = s.solveNQueenOneSolution(6);
+        Position[] positions = s.solveNQueenOneSolution(100);
         Arrays.stream(positions).forEach(position -> System.out.println(position.row + " " + position.col));
     }
 }

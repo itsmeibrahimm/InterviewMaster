@@ -14,7 +14,7 @@ class Node{
     Node child;
     Object obj;
     
-    public static Node newNode(int data, Object... obj){
+	public static Node newNode(int data, Object... obj){
         Node n = new Node();
         n.data = data;
         n.next = null;
